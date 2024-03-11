@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Headlines</title>
+    <!-- Include Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>News Headlines</h1>
+    <div>
+        <!-- Display the Plotly chart -->
+        {{ chart_html|safe }}
+    </div>
+    <ul>
+        {% for headline in headlines %}
+            <li>{{ headline.headline }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
