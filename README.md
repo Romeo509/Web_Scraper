@@ -25,13 +25,15 @@ This project is a Python-based web scraper and data visualization tool that coll
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/web-scraper.git
+   git clone https://github.com/Romeo509/Web_Scraper.git
    cd web-scraper
 
 <h3>1. Install the required packages:</h3>
+  
     pip install -r requirements.txt
 
 <h3>2. Run the Flask application:</h3>
+  
     python app.py
 
 <h3>3. Open your web browser and navigate to http://127.0.0.1:5000/ to view the application. </h3>
